@@ -25,6 +25,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions
+DEVICE_MAINTAINER := Ganesh Varma, Giammarco Senatore
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := arrow_mido
 PRODUCT_BRAND := Xiaomi
