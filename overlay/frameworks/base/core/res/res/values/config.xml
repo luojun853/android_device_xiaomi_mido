@@ -569,4 +569,8 @@
     <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
     <integer name="config_sysCPUTempMultiplier">1000</integer>
     <integer name="config_sysBatteryTempMultiplier">10</integer>
+    
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
+
 </resources>
