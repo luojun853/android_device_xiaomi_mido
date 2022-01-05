@@ -1,4 +1,4 @@
-typeattribute wcnss_service data_between_core_and_vendor_violators;
+#typeattribute wcnss_service data_between_core_and_vendor_violators;
 
 dontaudit wcnss_service serialno_prop:file { read getattr open };
 set_prop(wcnss_service, wifi_prop);
