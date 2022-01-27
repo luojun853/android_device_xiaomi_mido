@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_mido.mk
+    $(LOCAL_DIR)/exthm_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_mido-user \
-    arrow_mido-userdebug \
-    arrow_mido-eng
+    exthm_mido-user \
+    exthm_mido-userdebug \
+    exthm_mido-eng
